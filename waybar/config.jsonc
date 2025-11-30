@@ -183,7 +183,7 @@
         // "device": "acpi_video1",
         "scroll-step": 5,
         "format": "{percent}% {icon}",
-        "format-icons": ["", "", "", "", "", "", "", "", ""]
+        "format-icons": [""]
     },
 
     "battery": {
@@ -228,7 +228,7 @@
 
     "pulseaudio": {
         "scroll-step": 5, // %, can be a float
-        "format": "{volume}% {icon}", //   {format_source}",
+        "format": " {volume}% {icon} ", //   {format_source}",
         "format-bluetooth": "{volume}% {icon} ",// {format_source}",
         "format-bluetooth-muted": " {icon} ", // {format_source}",
         "format-muted": " {format_source}",

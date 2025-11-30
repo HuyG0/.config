@@ -54,9 +54,6 @@ button:hover {
 }
 
 /* you can set a style on hover for any module like this */
-#pulseaudio:hover {
-    background-color: #a37800
-}
 
 #workspaces button {
     padding: 0 5px;
@@ -146,13 +143,19 @@ button:hover {
 }
 
 #battery {
-    background-color: rgba(100, 114, 125, 0.502);
-    color: #ffffff;
+    background-color: #24283b;
+    box-shadow: inset 2px 0px #4E5578, inset 0px 2px #4E5578, inset -2px 0px #4E5578, inset 0px -2px #4E5578;
+    border-radius: 100;
+    margin: 10px 7.5px;
+    padding: 5px 10px;
 }
 
 #battery.charging, #battery.plugged {
-    color: #ffffff;
-    background-color: rgba(100, 114, 125, 0.502);
+    background-color: #24283b;
+    box-shadow: inset 2px 0px #4E5578, inset 0px 2px #4E5578, inset -2px 0px #4E5578, inset 0px -2px #4E5578;
+    border-radius: 100;
+    margin: 10px 7.5px;
+    padding: 5px 10px;
 }
 
 @keyframes blink {
@@ -213,26 +216,45 @@ label:focus {
 }
 
 #backlight {
-    background-color: #90b1b1;
+    background-color: #24283b;
+    border-radius: 100;
+    margin: 10px 7.5px;
+    padding: 5px 10px;
+    box-shadow: inset 2px 0px #4E5578, inset 0px 2px #4E5578, inset -2px 0px #4E5578, inset 0px -2px #4E5578;
 }
 
 #network {
-    background-color: #2980b9;
+    background-color: #24283b;
+    box-shadow: inset 2px 0px #4E5578, inset 0px 2px #4E5578, inset -2px 0px #4E5578, inset 0px -2px #4E5578;
+    border-radius: 100;
+    margin: 10px 7.5px;
+    padding: 5px 10px;
 }
 
 #network.disconnected {
-    background-color: #f53c3c;
+    background-color: #24283b;
+    box-shadow: inset 2px 0px #4E5578, inset 0px 2px #4E5578, inset -2px 0px #4E5578, inset 0px -2px #4E5578;
+    border-radius: 100;
+    margin: 10px 7.5px;
+    padding: 5px 10px;
 }
 
 #pulseaudio {
-    background-color: #f1c40f;
-    color: #000000;
+    background-color: #24283b;
+    border-radius: 100;
+    margin: 10px 7.5px;
+    padding: 5px 10px;
+    box-shadow: inset 2px 0px #4E5578, inset 0px 2px #4E5578, inset -2px 0px #4E5578, inset 0px -2px #4E5578;
 }
 
 #pulseaudio.muted {
     background-color: #90b1b1;
     color: #2a5c45;
 }
+
+/* #pulseaudio:hover {
+    background-color: #a37800
+} */
 
 #wireplumber {
     background-color: #fff0f5;
@@ -266,7 +288,11 @@ label:focus {
 }
 
 #tray {
-    background-color: rgba(100, 114, 125, 0.502);
+    background-color: #24283b;
+    box-shadow: inset 2px 0px #4E5578, inset 0px 2px #4E5578, inset -2px 0px #4E5578, inset 0px -2px #4E5578;
+    border-radius: 100;
+    margin: 10px 7.5px;
+    padding: 5px 10px;
 }
 
 #tray > .passive {
